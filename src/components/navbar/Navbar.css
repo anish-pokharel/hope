@@ -1,0 +1,9 @@
+.header1 .container {
+    padding-top: 15px;
+}
+
+.n_flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
