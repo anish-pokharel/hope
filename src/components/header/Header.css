@@ -17,10 +17,18 @@
     padding: 20px 0 10px 20px;
 }
 
+.left {
+    width: 35%;
+}
+
 .left i {
     padding-left: 15px;
     cursor: pointer;
 
+}
+
+.right {
+    width: 55%;
 }
 
 .right i {
