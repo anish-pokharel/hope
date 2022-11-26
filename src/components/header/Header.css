@@ -1,0 +1,40 @@
+.header {
+    background-color: blueviolet;
+    height: 10vh;
+}
+
+.container {
+    color: whitesmoke;
+}
+
+.headerflex {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    flex-wrap: wrap;
+    align-content: center;
+
+    padding: 20px 0 10px 20px;
+}
+
+.left i {
+    padding-left: 15px;
+    cursor: pointer;
+
+}
+
+.right i {
+    padding-right: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.right span {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        height: 15vh;
+    }
+}
