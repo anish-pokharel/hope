@@ -12,7 +12,10 @@ const Navbar = () => {
             <img src={logo} alt="" />
           </div>
           <div className="navlink">
-            <ul>
+            <ul
+              className={mobile ? "nav-links-mobile" : "ulflex uppercase "}
+              onClick={() => setMobile(false)}
+            >
               <li>
                 <a href="Home">Home</a>
               </li>
@@ -45,7 +48,7 @@ const Navbar = () => {
               {mobile ? (
                 <i className="fas fa-times close home-btn"></i>
               ) : (
-                <i className="fas fa-bars open"></i>
+                <i className="fas fa-bars open home-btn"></i>
               )}
             </button>
           </div>
