@@ -1,48 +1,80 @@
-.header {
-    background-color: wheat;
-    height: 10vh;
+.head {
+    padding: 20px 0;
+    color: rgb(183, 172, 172);
 }
 
-.container {
-    color: whitesmoke;
+.head .logo h1 {
+    font-size: 35px;
+    font-weight: 900;
 }
 
-.headerflex {
-    display: flex;
-    justify-content: space-between;
-    font-size: 30px;
-    flex-wrap: wrap;
-    align-content: center;
-
-    padding: 20px 0 10px 20px;
+.head .icon {
+    margin-left: 10px;
 }
 
-.left {
-    width: 35%;
+header {
+    background-color: rgba(7, 7, 7, 0.2);
+    margin: 0 30px;
+    position: relative;
 }
 
-.left i {
-    padding-left: 15px;
-    cursor: pointer;
-
+header .nav {
+    display: flex !important;
 }
 
-.right {
-    width: 55%;
+header ul {
+    padding: 30px 20px;
 }
 
-.right i {
-    padding-right: 25px;
-    margin-right: 20px;
-    cursor: pointer;
+header li {
+    margin-right: 40px;
 }
 
-.right span {
-    padding-left: 10px;
+header ul li a {
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+header ul li a:hover {
+    color: #1eb2a6;
+}
+
+.toggle {
+    display: none;
 }
 
 @media screen and (max-width: 768px) {
-    .header {
-        height: 15vh;
+
+    header {
+        margin: 0;
+        background-color: #1eb2a6;
+        position: relative;
+    }
+
+    header ul.flexSB {
+        display: none;
+    }
+
+    header ul li {
+        margin-bottom: 20px;
+    }
+
+    .toggle {
+        display: block;
+        background: none;
+        color: #fff;
+        font-size: 30px;
+        position: absolute;
+        right: 0;
+        top: -20px;
+    }
+
+    .mobile-nav {
+        position: absolute;
+        top: 7vh;
+        left: 0;
+        width: 100%;
+        background-color: #1eb2a6;
     }
 }
