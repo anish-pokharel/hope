@@ -21,12 +21,10 @@ const Mission = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section>
-        <div className="grid3 padding ">
+        <div className="flexSB padding margin ">
           <div className="reg">
             <h2>We Are Registered NDIS Provider</h2>
-            <button>Refer a participany</button>
+            <button className="reg-btn"> Refer a participany</button>
           </div>
           <div className="advice">
             <h2>Looking for Advice?</h2>

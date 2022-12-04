@@ -39,14 +39,42 @@
 
 }
 
-.grid3 {
-    border: 1px solid black;
-    background: rgb(209, 214, 209);
-    color: black;
-    text-align: center;
-    border: 1px solid black;
+
+.container .margin {
+    margin: 20px;
 }
 
+
+
 .reg {
-    margin: 0px 0px 0 80px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+.reg:hover {
+    color: white;
+    background-color: skyblue;
+}
+
+.advice {
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.advice:hover {
+    color: white;
+    background-color: skyblue;
+}
+
+.container .reg-btn {
+    border-radius: 25px;
+}
+
+.container .reg-btn:hover {
+    background-color: rgb(182, 231, 250);
+    color: rgb(168, 162, 162);
 }
