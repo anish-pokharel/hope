@@ -2,6 +2,7 @@ import "./App.css";
 import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
+import Mission from "./components/mission/Mission";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         </Routes>
       </BrowserRouter> */}
       <Header />
+      <Mission />
       <Contact />
     </>
   );
