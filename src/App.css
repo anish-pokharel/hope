@@ -83,3 +83,10 @@ button:hover {
     box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
     /* background-color: #fff; */
 }
+
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30pc;
+    text-align: center;
+}

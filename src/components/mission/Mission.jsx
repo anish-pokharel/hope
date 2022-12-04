@@ -1,7 +1,44 @@
 import React from "react";
+import mission from "../../image/mission.webp";
+import "./Mission.css";
 
 const Mission = () => {
-  return <h1>Hello from mission</h1>;
+  return (
+    <>
+      <section className="container padding">
+        <div className="flexSB">
+          <div className="left row padding">
+            <h1>Our mission</h1>
+            <p className="padding">
+              Our Mission Our mission is to empower people with a disability to
+              engage in opportunities of their choice in a supported and
+              inclusive environment.
+            </p>
+          </div>
+          <div className="right row">
+            <div className="img">
+              <img src={mission} alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="grid3 padding ">
+          <div className="reg">
+            <h2>We Are Registered NDIS Provider</h2>
+            <button>Refer a participany</button>
+          </div>
+          <div className="advice">
+            <h2>Looking for Advice?</h2>
+            <p>
+              Call us on 1300 424 442 to talk about your needs. Or fill out the
+              form below and our Care Advisors will be in touch soon.
+            </p>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 };
 
 export default Mission;
