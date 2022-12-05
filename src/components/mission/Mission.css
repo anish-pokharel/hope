@@ -1,14 +1,11 @@
 .container.right .img {
     width: 400px;
     height: 400px;
-    border: 1px solid black;
+
 
 
 }
 
-.container .flexSB {
-    border: 1px solid black;
-}
 
 .container .left {
     margin: auto;
@@ -16,10 +13,7 @@
     padding: 30px;
 }
 
-.container .right {
-    border: 1px solid black;
 
-}
 
 .container .right {
     height: 400px;
