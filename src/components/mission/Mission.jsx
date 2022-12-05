@@ -5,11 +5,11 @@ import "./Mission.css";
 const Mission = () => {
   return (
     <>
-      <section className="container padding">
+      <section className="container ">
         <div className="flexSB">
           <div className="left row padding">
             <h1>Our mission</h1>
-            <p className="padding">
+            <p className="padding desc ">
               Our Mission Our mission is to empower people with a disability to
               engage in opportunities of their choice in a supported and
               inclusive environment.
@@ -19,19 +19,6 @@ const Mission = () => {
             <div className="img">
               <img src={mission} alt="" />
             </div>
-          </div>
-        </div>
-        <div className="flexSB padding margin ">
-          <div className="reg">
-            <h2>We Are Registered NDIS Provider</h2>
-            <button className="reg-btn"> Refer a participany</button>
-          </div>
-          <div className="advice">
-            <h2>Looking for Advice?</h2>
-            <p>
-              Call us on 1300 424 442 to talk about your needs. Or fill out the
-              form below and our Care Advisors will be in touch soon.
-            </p>
           </div>
         </div>
       </section>

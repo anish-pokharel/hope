@@ -3,6 +3,7 @@ import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Mission from "./components/mission/Mission";
+import Wrapper from "./components/wrapper/Wrapper";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       </BrowserRouter> */}
       <Header />
       <Mission />
+      <Wrapper />
       <Contact />
     </>
   );
