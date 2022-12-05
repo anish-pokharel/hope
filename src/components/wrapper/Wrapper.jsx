@@ -4,8 +4,23 @@ import "./Wrapper.css";
 const Wrapper = () => {
   return (
     <>
-      <section className="container">
-        <div className="flexSB padding margin ">
+      <section className="wrapper">
+        <div className="grid">
+          <div className="reg">
+            <h3>We Are Registered NDIS Provider</h3>
+            <button>Refer a participant</button>
+          </div>
+          <div className="advice">
+            <h3>Looking For Advice?</h3>
+            <p>
+              Call us on 1300 424 442 to talk about your needs. Or fill out the
+              form below and our Care Advisors will be in touch soon.
+            </p>
+          </div>
+        </div>
+      </section>
+      {/* <section className="container">
+        <div className="flexSB  ">
           <div className="reg">
             <h2>We Are Registered NDIS Provider</h2>
             <button className="reg-btn"> Refer a participany</button>
@@ -18,7 +33,7 @@ const Wrapper = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

@@ -1,4 +1,4 @@
-.reg {
+/* .reg {
     border: 1px solid black;
     padding: 20px;
     margin: 20px;
@@ -34,4 +34,29 @@
 .container .reg-btn:hover {
     background-color: rgb(182, 231, 250);
     color: rgb(168, 162, 162);
+} */
+.wrapper {
+
+    height: 200px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+
+}
+
+.grid .reg {
+
+    margin-top: 10px;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+.grid .advice {
+    margin-top: 10px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
