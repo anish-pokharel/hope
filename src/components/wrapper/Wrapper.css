@@ -38,25 +38,51 @@
 .wrapper {
 
     height: 200px;
+    top: 0;
+
 }
 
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
+    text-align: center;
 
+}
+
+.wrapper h3 {
+    font-size: 25px;
+
+}
+
+.wrapper p {
+    line-height: 20px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .grid .reg {
-
-    margin-top: 10px;
+    margin: 10px;
+    /* margin-top: 10px; */
     padding: 30px;
     border: 1px solid black;
+    border-radius: 15px;
+
 }
 
 .grid .advice {
-    margin-top: 10px;
+    margin: 10px;
     padding: 30px;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 15px;
+}
+
+.wrapper .grid .advice:hover,
+.wrapper .grid .reg:hover {
+    background-color: rgba(7, 7, 7, 0.2);
+    color: white;
+    box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
+    transition: 0.5s;
+
 }
