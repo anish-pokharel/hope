@@ -5,8 +5,8 @@ import "./Mission.css";
 const Mission = () => {
   return (
     <>
-      <section className="container ">
-        <div className="flexSB">
+      <section className="container flexSB padding ">
+        <div className="flexSB ">
           <div className="left row padding">
             <h1>Our mission</h1>
             <p className="padding desc ">
