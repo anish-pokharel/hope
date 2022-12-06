@@ -19,6 +19,8 @@
 
 }
 
+
+
 .flexMI .right img {
     width: 100%;
     height: 100%;
@@ -28,7 +30,8 @@
 }
 
 .flexMI .left {
-    transform: translateY(20px);
+    height: 350px;
+    transform: translateY(60px);
 }
 
 .flexMI .left h1 {
