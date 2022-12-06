@@ -1,9 +1,10 @@
 import "./App.css";
 import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+// import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Mission from "./components/mission/Mission";
 import Wrapper from "./components/wrapper/Wrapper";
+import Service from "./components/service/Service";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         </Routes>
       </BrowserRouter> */}
       <Header />
+      <Service />
       <Mission />
       <Wrapper />
       <Contact />
