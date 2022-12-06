@@ -1,25 +1,19 @@
 .flexMI {
     display: flex;
-    height: 60vh;
+    height: 70vh;
     flex-wrap: wrap;
-    /* background-color: bisque;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    border: 2px solid black;*/
+
     text-align: center;
 }
 
 .right,
 .left {
-    /* border: 2px solid black; */
+    border: 2px solid black;
     width: 700px;
     height: 400px;
     margin: 12px;
 
 }
-
-
 
 .flexMI .right img {
     width: 100%;
@@ -31,7 +25,7 @@
 
 .flexMI .left {
     height: 350px;
-    transform: translateY(60px);
+
 }
 
 .flexMI .left h1 {
@@ -50,4 +44,13 @@
 .flexMI .right:hover img {
     transform: scale(1.1);
     transition: 0. 5s;
+}
+
+@media screen and (max-width: 414px) {
+    .left {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        line-height: 0;
+    }
 }
