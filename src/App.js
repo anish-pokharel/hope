@@ -18,7 +18,7 @@ function App() {
       <Header />
       <Service />
       <Mission />
-      {/* <Wrapper /> */}
+      <Wrapper />
       {/* <Contact /> */}
     </>
   );

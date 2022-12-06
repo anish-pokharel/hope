@@ -1,66 +1,38 @@
 .wrapper {
-
-    /* height: 400px; */
-    background: linear-gradient(135deg, rgba(250, 28, 28, 0.65), rgba(54, 54, 54, 0.65));
-    /* margin: 20px; */
-    padding: 20px;
-}
-
-/* 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    height: 450px;
+    padding-top: 20px;
     text-align: center;
 
 }
 
-.wrapper h3 {
-    font-size: 25px;
 
+
+.registered,
+.advice {
+
+    width: 700px;
+    height: 200px;
+    margin: auto;
+    padding: 30px;
 }
+
+
+
+.wrapper h3 {
+    padding: 10px;
+}
+
 
 .wrapper p {
     line-height: 20px;
-    padding: 10px;
     font-weight: 400;
-    font-size: 20px;
 }
 
-.grid .reg {
-    margin: 10px;
-    margin-top: 10px;
-    padding: 30px;
-    border: 1px solid black;
-    border-radius: 15px;
-
-}
-
-.grid .advice {
-    margin: 10px;
-    padding: 30px;
-    border: 1px solid black;
-    border-radius: 15px;
-}
-
-.wrapper .grid .advice:hover,
-.wrapper .grid .reg:hover {
+.wrapper .registered:hover,
+.wrapper .advice:hover {
     background-color: rgba(7, 7, 7, 0.2);
     color: white;
     box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
     transition: 0.5s;
-
-} */
-
-.flexMI {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.reg,
-.advice {
-    border: 2px solid;
-    width: 650px;
-    margin: 12px;
+    border-radius: 15px;
 }

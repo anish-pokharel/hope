@@ -23,7 +23,7 @@ const Mission = () => {
         </div>
       </section> */}
 
-      <div className="flexMI">
+      <div className="flexMI height">
         <div className="right image">
           <img src={mission} alt="" />
         </div>

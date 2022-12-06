@@ -1,9 +1,6 @@
-.flexMI {
-    display: flex;
-    height: 70vh;
-    flex-wrap: wrap;
-
+.height {
     text-align: center;
+    height: 700px;
 }
 
 .right,
@@ -11,8 +8,7 @@
     border: 2px solid black;
     width: 700px;
     height: 400px;
-    margin: 12px;
-
+    margin: 1px;
 }
 
 .flexMI .right img {
@@ -24,13 +20,14 @@
 }
 
 .flexMI .left {
-    height: 350px;
-
+    height: 250px;
+    align-items: center;
+    align-content: center;
 }
 
 .flexMI .left h1 {
     text-transform: capitalize;
-    margin-top: 40px;
+
 }
 
 .flexMI .left p {
@@ -38,7 +35,7 @@
     padding: 20px;
     font-weight: 400;
     font-size: 25px;
-    line-height: 35px;
+    line-height: 25px;
 }
 
 .flexMI .right:hover img {
@@ -46,9 +43,10 @@
     transition: 0. 5s;
 }
 
-@media screen and (max-width: 414px) {
-    .left {
+@media screen and (max-width: 415px) {
+    .left p {
         text-align: center;
+        /* background-color: black; */
         padding: 0;
         margin: 0;
         line-height: 0;
