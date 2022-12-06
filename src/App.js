@@ -19,7 +19,7 @@ function App() {
       <Service />
       <Mission />
       <Wrapper />
-      <Contact />
+      {/* <Contact /> */}
     </>
   );
 }

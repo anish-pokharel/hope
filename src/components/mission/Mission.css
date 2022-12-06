@@ -1,114 +1,50 @@
-.container.right .img {
-    width: 400px;
-    height: 400px;
-
-
-
-}
-
-.container .flexSB {
-    flex-wrap: wrap;
-    width: 100%;
+.flexMI {
+    display: flex;
     height: 60vh;
-
-}
-
-
-.container .left {
-    margin: auto;
+    flex-wrap: wrap;
+    /* background-color: bisque;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
-    padding: 30px;
+    border: 2px solid black;*/
+    text-align: center;
 }
 
-
-
-.container .right {
+.right,
+.left {
+    /* border: 2px solid black; */
+    width: 700px;
     height: 400px;
-    padding-left: 10%;
+    margin: 12px;
+
 }
 
-.container .right {
-    margin: auto;
+.flexMI .right img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 20px;
+    border-radius: 30% 15%;
 }
 
-.container .right img {
-
+.flexMI .left {
     transform: translateY(20px);
 }
 
-.container .right img {
-    width: 400px;
-    height: 400px;
-    object-fit: contain;
-}
-
-.container .left h1 {
-    text-transform: uppercase;
-}
-
-.container .left p {
-    line-height: 30px;
-    font-size: 22px;
-    font-weight: 400;
-}
-
-@media screen and (max-width: 768px) {
-    .flexSB {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
-
-/* 
-
-.container .right img {
-    width: 400px;
-    height: 400px;
-    object-fit: contain;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.left {
-    border: 1px solid black;
-    padding: 20px 10px 0 10px;
-    height: 400px;
-    text-align: centers;
-}
-
-.container .desc {
-    padding-left: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.left h1 {
-    text-align: center;
-    font-size: 25px;
+.flexMI .left h1 {
     text-transform: capitalize;
+    margin-top: 40px;
 }
 
-.left p {
-    font-size: 17px;
-    font-weight: 400;
-
-
-}
-
-.right {
-    border: 1px solid black;
+.flexMI .left p {
+    margin-top: 20px;
     padding: 20px;
-    height: 400px;
-
-
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
 }
 
-
-.container .margin {
-    margin: 20px;
+.flexMI .right:hover img {
+    transform: scale(1.1);
+    transition: 0. 5s;
 }
-
-
- */
