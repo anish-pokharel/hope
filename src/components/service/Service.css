@@ -1,3 +1,8 @@
+.service {
+    background-color: #fff;
+    width: 100%;
+}
+
 .box {
     /* border: 2px solid black; */
     border-radius: 15px;
@@ -6,12 +11,15 @@
     padding: 20px;
     height: 80vh;
     text-align: center;
-
     width: 50vh;
     margin: 50px;
     display: block;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    /* grid-template-columns: repeat(1, 1fr); */
+    /* grid-template-rows: repeat(3, 1fr); */
+}
+
+.box:hover {
+    background-color: aqua;
 }
 
 .text {
@@ -36,5 +44,22 @@ img {
     width: 180px;
     height: 180px;
     object-fit: contain;
+    z-index: -1;
+    border-radius: 50%;
+}
 
+.box:hover img {
+    transform: scale(1.2);
+}
+
+.box button {
+    background-color: rgb(76, 132, 132);
+    color: white;
+    font-size: 20px;
+}
+
+.box button:hover {
+    background-color: rgb(160, 150, 150);
+    color: rgb(30, 244, 244);
+    font-size: 30px;
 }

@@ -7,7 +7,7 @@ const Service = () => {
   return (
     <>
       <section className="service padding">
-        <div>
+        <div className="heading">
           <h1>Our Services</h1>
         </div>
         <div className="data">
