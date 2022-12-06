@@ -5,6 +5,7 @@ import Header from "./components/header/Header";
 import Mission from "./components/mission/Mission";
 import Wrapper from "./components/wrapper/Wrapper";
 import Service from "./components/service/Service";
+import Fotter from "./components/footer/Fotter";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Mission />
       <Wrapper />
       {/* <Contact /> */}
+      <Fotter />
     </>
   );
 }

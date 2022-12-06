@@ -1,0 +1,27 @@
+footer {
+    background-color: rgb(40, 38, 38);
+    /* color: white; */
+    height: 50vh;
+    text-align: center;
+}
+
+.footer {
+    padding: 100px;
+}
+
+.boxfooter {
+    /* display: flex; */
+    height: 200px;
+    /* flex-wrap: wrap; */
+    border: 1px solid;
+    width: 200px;
+
+}
+
+.footerright {
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    border-top: 2px solid white;
+}
