@@ -1,7 +1,12 @@
 import "./App.css";
 import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Home from "./components/home/Home";
+// import { Route, Routes, BrowserRouter } from "react-router-dom";
+
 import Mission from "./components/mission/Mission";
 import Wrapper from "./components/wrapper/Wrapper";
 import Service from "./components/service/Service";
@@ -23,7 +28,13 @@ function App() {
           {/* <Contact /> */}
         </Routes>
         <Fotter />
-      </BrowserRouter>
+      </BrowserRouter>{" "}
+      {/* <Header /> */}
+      {/* <Home/> */}
+      {/* <Service /> */}
+      {/* <Mission /> */}
+      {/* <Wrapper /> */}
+      {/* <Contact /> */}
     </>
   );
 }
