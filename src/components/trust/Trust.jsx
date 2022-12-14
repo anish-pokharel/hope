@@ -1,9 +1,13 @@
 import React from "react";
+import Title from "../common/Title";
 
 const Trust = () => {
   return (
     <>
-      <h1>hello from trust</h1>
+      <section className="container">
+        <Title title="We're All About Trust" />
+        <div className="flexSB"></div>
+      </section>
     </>
   );
 };
