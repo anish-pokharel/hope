@@ -21,9 +21,9 @@ const Trust = () => {
                 public and private sector. Our vision is to empower participants
                 to take ownership of their life.
               </p>
-            </div>
-            <div className="button">
-              <button>About Hope Ability </button>
+              <div className="button">
+                <button>About Hope Ability </button>
+              </div>
             </div>
           </div>
         </div>
