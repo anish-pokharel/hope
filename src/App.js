@@ -1,7 +1,7 @@
 import "./App.css";
 import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
-// import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Mission from "./components/mission/Mission";
 import Wrapper from "./components/wrapper/Wrapper";
 import Service from "./components/service/Service";
@@ -10,18 +10,20 @@ import Fotter from "./components/footer/Fotter";
 function App() {
   return (
     <>
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/mission" element={<Mission />} />
+          <Route path="/wrapper" element={<Wrapper />} />
+          {/* <Service />
+          <Mission />
+          <Wrapper /> */}
+
+          {/* <Contact /> */}
         </Routes>
-      </BrowserRouter> */}
-      <Header />
-      <Service />
-      <Mission />
-      <Wrapper />
-      {/* <Contact /> */}
-      <Fotter />
+        <Fotter />
+      </BrowserRouter>
     </>
   );
 }
