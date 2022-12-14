@@ -7,7 +7,7 @@ const Mission = () => {
     <>
       <div className="flexMI height">
         <div className="right image">
-          <img src={mission} alt="" />
+          <img src={mission} alt="" className="missionimg" />
         </div>
         <div className="left text">
           <h1>Our mission</h1>
