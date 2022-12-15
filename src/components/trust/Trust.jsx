@@ -6,12 +6,12 @@ const Trust = () => {
   return (
     <>
       <section>
-        <Title title="We're All About Trust" />
+        <Title title="We're All About Trust" className="padding" />
         <div className="flexTr ">
           <div className="right image">
             <img src={about} alt="" className="aboutimg" />
           </div>
-          <div className="left text  ">
+          <div className="left text top ">
             <div className="flexTr ">
               <p className="padding desc ">
                 Hope Ability management has years of experience in disability

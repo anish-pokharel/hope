@@ -1,19 +1,18 @@
-.flexTr {
-    border: 1px solid;
-}
-
-.right,
-.left {
-    border: 1px solid;
-}
-
 .aboutimg {
     padding: 20px 70px;
     border-radius: 100px;
 }
 
+.aboutimg:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
 .Btn {
-    text-align: center;
-    align-content: center;
-    justify-content: center;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.left .flexTr {
+    margin: 50px 0;
 }
