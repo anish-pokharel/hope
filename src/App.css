@@ -17,7 +17,7 @@ body {
 
 .flexSB {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -25,6 +25,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.flexTr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .heading {

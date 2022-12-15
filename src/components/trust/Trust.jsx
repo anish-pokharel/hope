@@ -7,7 +7,7 @@ const Trust = () => {
     <>
       <section className="container">
         <Title title="We're All About Trust" />
-        <div className="flexSB">
+        <div className="flexTr padding ">
           <div className="left row">
             <div className="aboutimg">
               <img src={about} alt="" />
