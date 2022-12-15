@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    max-width: 100%;
+    max-width: 85%;
     margin: auto;
 }
 
@@ -70,7 +70,7 @@ li {
 }
 
 .row {
-    width: 50%;
+    width: 45%;
 }
 
 button {
