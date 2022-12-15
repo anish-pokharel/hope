@@ -5,25 +5,21 @@ import about from "../../image/about.jpg";
 const Trust = () => {
   return (
     <>
-      <section className="container">
+      <section>
         <Title title="We're All About Trust" />
-        <div className="flexTr padding ">
-          <div className="left row">
-            <div className="aboutimg">
-              <img src={about} alt="" />
-            </div>
+        <div className="flexTr ">
+          <div className="right image">
+            <img src={about} alt="" className="aboutimg" />
           </div>
-          <div className="right row">
-            <div className="para">
-              <p>
+          <div className="left text  ">
+            <div className="flexTr ">
+              <p className="padding desc ">
                 Hope Ability management has years of experience in disability
                 services along with extensive experience in customer focused
                 public and private sector. Our vision is to empower participants
                 to take ownership of their life.
               </p>
-              <div className="button">
-                <button>About Hope Ability </button>
-              </div>
+              <button className="Btn">About Hope Ability</button>
             </div>
           </div>
         </div>

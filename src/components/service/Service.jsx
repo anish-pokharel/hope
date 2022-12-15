@@ -17,7 +17,7 @@ const Service = () => {
                 <>
                   <div className="box " key={val.id}>
                     <div className="img">
-                      <img src={val.logo} alt="" />
+                      <img src={val.logo} alt="" className="serviceimg" />
                     </div>
                     <div className="text">
                       <h2>{val.title}</h2>
