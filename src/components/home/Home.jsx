@@ -8,8 +8,8 @@ const Home = () => {
         <div className="container1">
           <img src={homeimg} alt="" className="bghome" />
         </div>
-        {/* <h1>Home hello</h1> */}
-        {/* <img src="./he.jpg"></img> */}
+        <h1>Home hello</h1>
+        <img src="./he.jpg"></img>
       </section>
     </>
   );
