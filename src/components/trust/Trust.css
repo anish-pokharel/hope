@@ -1,6 +1,8 @@
 .aboutimg {
     padding: 20px 70px;
     border-radius: 100px;
+
+    /* object-fit: cover; */
 }
 
 .aboutimg:hover {
@@ -25,11 +27,18 @@
 
     .right,
     .left {
-        width: 100%;
+        width: 90%;
         border: 1px solid;
         height: 350px;
         margin: 0;
         padding: 0;
+    }
+
+    .aboutimg {
+        width: 450px;
+        height: 100%;
+        padding: none;
+        object-fit: cover;
     }
 
 }
